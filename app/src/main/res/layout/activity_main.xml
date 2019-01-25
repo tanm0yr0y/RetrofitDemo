@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#00bfff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:text="Sign Up"
+        android:textColor="#f9f8f8"
+        android:textSize="25dp"
+
+        android:layout_marginTop="130dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/email"
+        android:hint="email"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:drawableTint="#0b92bf"
+        android:layout_marginTop="10dp"
+        android:background="#e1dddd"
+        android:ems="15"
+        android:inputType="textEmailAddress"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/password"
+        android:hint="password"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:drawableTint="#0b92bf"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:background="#e1dddd"
+        android:ems="15"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/name"
+        android:hint="name"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_account_box_black_24dp"
+        android:drawableTint="#0b92bf"
+        android:inputType="textPersonName"
+        android:background="#e1dddd"
+        android:ems="15"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/school"
+        android:hint="school"
+        android:layout_marginTop="10dp"
+        android:background="#e1dddd"
+        android:ems="15"
+        android:inputType="text"
+        android:drawableLeft="@drawable/ic_school_black_24dp"
+        android:drawableTint="#0b92bf"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="@string/msg"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="17dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/login"
+        android:text="Click to Login"
+        android:layout_gravity="center"
+        android:onClick="goToLoginPage"
+        android:clickable="true"
+        android:textColor="#ffffff"
+        android:textSize="17dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/signup"
+        android:text="Sign Up"
+        android:background="#0b92bf"
+        android:textColor="#f9f8f8"
+        android:onClick="signUpAction"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
